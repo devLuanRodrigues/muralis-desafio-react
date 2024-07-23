@@ -1,0 +1,108 @@
+/* FormularioCadastro.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  border: 2px solid #1877F2; /* Azul mais escuro */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.header {
+  background-color: #1877F2; /* Azul mais escuro */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 20px -20px;
+  font-weight: 500; /* Medium */
+}
+
+.form {
+  border-radius: 10px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: black; /* Letras pretas */
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #1877F2;
+  border-radius: 5px;
+}
+
+.selectWrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #1877F2;
+  border-radius: 5px;
+  appearance: none; /* Removes default arrow in some browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white; /* Fundo branco */
+  color: black;
+}
+
+.selectWrapper::after {
+  content: '▼';
+  font-size: 12px;
+  color: white; /* Seta branca */
+  background-color: #1877F2; /* Fundo azul do quadradinho */
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voltarButton {
+  background-color: #FFC107;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gravarButton {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
