@@ -1,31 +1,31 @@
-/* FormularioCadastro.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
-  width: 320px;
+  width: 275px; 
   padding: 20px;
-  border: 2px solid #1877F2; /* Azul mais escuro */
-  border-radius: 10px;
+  border: 2px solid #4472C4; 
+  border-radius: 0 0 10px 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
+  position: relative;
 }
 
 .header {
-  background-color: #1877F2; /* Azul mais escuro */
+  background-color: #4472C4;
   color: white;
   text-align: center;
   padding: 10px;
-  border-radius: 10px 10px 0 0;
   margin: -20px -20px 20px -20px;
-  font-weight: 500; /* Medium */
-}
-
-.form {
-  border-radius: 10px;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
 .formGroup {
@@ -35,14 +35,15 @@ body {
 .label {
   display: block;
   margin-bottom: 5px;
-  color: black; /* Letras pretas */
+  color: black;
+  width: 100%;
 }
 
-.input {
-  width: 100%;
+.input, .select {
+  width: calc(100%);
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid #1877F2;
+  border: 1px solid #4472C4;
   border-radius: 5px;
 }
 
@@ -56,27 +57,27 @@ body {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid #1877F2;
+  border: 1px solid #4472C4;
   border-radius: 5px;
-  appearance: none; /* Removes default arrow in some browsers */
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: white; /* Fundo branco */
+  background-color: white;
   color: black;
+  padding-right: 35px;
 }
 
 .selectWrapper::after {
   content: '▼';
-  font-size: 12px;
-  color: white; /* Seta branca */
-  background-color: #1877F2; /* Fundo azul do quadradinho */
-  padding: 4px;
-  width: 20px;
-  height: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #4472C4;
+  width: 25px;
+  height: 25px;
   border-radius: 3px;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 5px;
   pointer-events: none;
   transform: translateY(-50%);
   display: flex;
@@ -93,16 +94,26 @@ body {
   background-color: #FFC107;
   color: #fff;
   border: none;
-  padding: 8px 16px;
+  padding: 5px 30px;
   border-radius: 5px;
   cursor: pointer;
+  flex: 1;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  width: auto;
 }
 
 .gravarButton {
   background-color: #4CAF50;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 5px;
   cursor: pointer;
+  flex: 1;
+  margin-left: 150px;
+  height: 35px;
 }
+
+
