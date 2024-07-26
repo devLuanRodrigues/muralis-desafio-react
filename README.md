@@ -5,6 +5,7 @@ Este projeto tem como objetivo demonstrar habilidades técnicas em front-end uti
 ## Layout
 
 O formulário deve seguir o seguinte layout:
+
 ![Layout do formulário a ser desenvolvido](src/assets/layout.png)
 
 
@@ -113,7 +114,7 @@ Aqui estão algumas capturas de tela do formulário de cadastramento em funciona
 
 ### Demonstração
 
-Para uma demonstração em vídeo do funcionamento do formulário, você pode assistir [aqui](src/assets/demo.mp4).
+Para uma demonstração em vídeo do funcionamento do formulário, você pode assistir [aqui](https://youtu.be/jHdCylNyQ_Y).
 
 ### Agradecimentos
 
