@@ -92,18 +92,23 @@ Essa estrutura ajuda a organizar o código de forma clara e modular, facilitando
 Aqui estão algumas capturas de tela do formulário de cadastramento em funcionamento:
 
 1. **Formulário Inicial**:
+
    ![Formulário Inicial](src/assets/FormInicial.png)
 
-2. **Selecionando Curso**
+2. **Selecionando Curso**:
+
    ![Seleção de cursos](src/assets/Curso.png)
 
 3. **Selecionando Estado - São Paulo**:
+
    ![Estado São Paulo Selecionado](src/assets/SP.png)
 
 4. **Selecionando Estado - Rio de Janeiro**:
+
    ![Estado Rio de Janeiro Selecionado](src/assets/Rio.png)
 
 5. **Selecionando Estado - Minas Gerais**:
+
    ![Estado Minas Gerais Selecionado](src/assets/MG.png)
 
 ### Demonstração
