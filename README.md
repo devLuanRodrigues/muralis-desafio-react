@@ -39,7 +39,7 @@ O formulário deve conter:
 
 2. **Instale as dependências**
    ```bash
-   cd nome-do-repositorio
+   cd muralis-desafio-react
    npm install
 
 
